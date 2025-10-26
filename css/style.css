@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  height: 100vh;
+  margin: 0;
+  background-image: url("../asset/image1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="number"] {
+  width: 400px;
+  padding: 5px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: #0095ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#submit:hover {
+  background-color: #004a7b;
+}
+
+#univ {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background: linear-gradient(#e8e8e8, #ffff);
+  margin: 5px 0 20px 0;
+}
+
+#programStudi {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background: linear-gradient(#e8e8e8, #ffff);
+  margin: 5px 0 20px 0;
+}
+
+label[for="setuju"] {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#textForm {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#error {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
