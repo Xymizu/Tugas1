@@ -99,7 +99,8 @@ form.addEventListener("submit", function (event) {
     noInput.classList.add("input-error");
     isValid = false;
   } else if (!validasiAngka(noValue)) {
-    noTelpError.textContent = "Input harus berupa angka, bukan huruf atau simbol";
+    noTelpError.textContent =
+      "Input harus berupa angka, bukan huruf atau simbol";
     noTelpError.style.display = "block";
     noInput.classList.add("input-error");
     isValid = false;
@@ -138,6 +139,6 @@ form.addEventListener("submit", function (event) {
 
   if (isValid) {
     alert("Form submitted successfully!");
-    form.submit();
+    form.reset();
   }
 });
