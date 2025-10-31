@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/arif_mf-23552011380.css" />
+    <title>Form Arif</title>
+  </head>
+  <body>
+    <form id="form">
+      <h1 id="judul">Pendaftaran Event Kampus</h1>
+      <div class="form-group">
+        <label for="nameInput">Nama Lengkap</label>
+        <input
+          type="text"
+          id="nameInput"
+          name="name"
+          placeholder="Masukan nama lengkap"
+        />
+        <div id="namaError" class="error">Nama lengkap harus diisi</div>
+      </div>
+
+      <div class="form-group">
+        <label for="emailInput">Email</label>
+        <input
+          type="email"
+          id="emailInput"
+          name="email"
+          placeholder="Masukan Email"
+        />
+        <div id="emailError" class="error">Email harus diisi</div>
+        <div id="emailError2" class="error">Format email harus sesuai</div>
+      </div>
+
+      <div class="form-group">
+        <label for="nimInput">NIM</label>
+        <input
+          type="number"
+          id="arif-23552011380"
+          name="nim"
+          placeholder="Masukan NIM"
+        />
+        <div id="nimError" class="error">Universitas harus dipilih</div>
+      </div>
+
+      <div class="form-group">
+        <label for="noInput">No. Telp/Whatsapp</label>
+        <input
+          type="number"
+          id="noInput"
+          name="no"
+          placeholder="Masukan Nomor"
+        />
+        <div id="noError" class="error">Input harus berupa</div>
+      </div>
+
+      <div class="form-group">
+        <label for="univ">Universitas</label>
+        <select id="univ" name="univ">
+          <option value="">Pilih Universitas</option>
+          <option value="utb">Universitas Teknologi Bandung</option>
+          <option value="ui">Universitas Indonesia</option>
+          <option value="itb">Institut Teknologi Bandung</option>
+          <option value="its">Institut Teknologi Sepuluh Nopember</option>
+          <option value="undip">Universitas Diponegoro</option>
+        </select>
+        <div id="univError" class="error">
+          Harap pilih Universitas terlebih dahulu!
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="programStudi">Program Studi</label>
+        <select id="programStudi" name="programStudi">
+          <option value="">Pilih Program Studi</option>
+          <option value="informatika">Informatika</option>
+          <option value="sistem-informasi">Sistem Informasi</option>
+          <option value="teknik-komputer">Teknik Komputer</option>
+          <option value="teknik-elektro">Teknik Elektro</option>
+          <option value="teknik-sipil">Teknik Sipil</option>
+        </select>
+        <div id="prodiError" class="error">
+          Harap isi prodi terlebih dahulu!
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" id="setuju" name="setuju" value="true" />
+        <label for="setuju"> Saya setuju dengan syarat dan ketentuan</label>
+        <Harap id="setujuError" class="error">Harap setujui syarat dan ketentuan.</div>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" id="submit" value="Kirim" />
+      </div>
+    </form>
+    <script src="js/arif_mf-23552011380.js"></script>
+  </body>
+  <footer>Arif Muhamad Fahri [23552011380] | 2025</footer>
+</html>
